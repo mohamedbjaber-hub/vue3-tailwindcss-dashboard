@@ -12,7 +12,7 @@
       aria-label="Main navigation"
     >
       <header class="mb-4 flex p-4">
-        <h1 class="text-xl font-bold dark:text-white">AdminPanel</h1>
+        <h1 class="text-xl font-bold dark:text-white">Admin Panel</h1>
       </header>
       <ul role="menu">
         <li role="none" class="p-2" v-for="(link, index) in links" :key="index">
@@ -61,35 +61,35 @@ const links = ref([
     open: false,
   },
   {
-    name: "Users",
+    name: "Utilisateurs",
     icon: "line-md:account",
     active: false,
     open: true,
     children: [
-      { name: "All Users"},
-      { name: "Add User" },
-      { name: "User Roles" },
+      { name: "Tous les utilisateurs" },
+      { name: "Ajouter un utilisateur" },
+      { name: "Rôles des utilisateurs" },
     ],
   },
   {
-    name: "Products",
+    name: "Produits",
     icon: "mdi:shopping-outline",
     active: false,
     open: false,
     children: [
-      { name: "All Products" },
-      { name: "Categories" },
-      { name: "Inventory" },
+      { name: "Tous les produits" },
+      { name: "Catégories" },
+      { name: "Inventaire" },
     ],
   },
   {
-    name: "message",
+    name: "Messages",
     icon: "line-md:email",
     active: false,
     open: false,
   },
   {
-    name: "Settings",
+    name: "Paramètres",
     icon: "line-md:cog",
     active: false,
     open: false,

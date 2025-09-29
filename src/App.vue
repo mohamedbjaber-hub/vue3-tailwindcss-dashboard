@@ -12,6 +12,10 @@
       <main class="flex-1 p-6 bg-base-200 dark:bg-backgroundDark">
         <StatsCards />
         <Charts />
+        <div class="grid grid-cols-1 lg:grid-cols-3">
+          <RecentOrders class="col-span-2" />
+        </div>
+
       </main>
     </div>
     <Sidebar />
@@ -23,6 +27,8 @@ import Navbar from "./components/Navbar.vue";
 import Sidebar from "./components/Sidebar.vue";
 import StatsCards from "./components/StatsCards.vue";
 import Charts from "./components/Charts.vue";
+import RecentOrders from "./components/RecentOrders.vue";
+
 const isDark = ref(false);
 
 onMounted(() => {
