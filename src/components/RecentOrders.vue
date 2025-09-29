@@ -1,12 +1,12 @@
 <template>
     <div class="card bg-base-100 dark:bg-white/5 dark:backdrop-blur-md dark:[--webkit-backdrop-filter(10)] shadow-sm">
         <div class="card-body p-4">
-            <h2 class="card-title text-lg font-semibold">Recent Orders</h2>
+            <h2 class="card-title text-lg font-semibold">Commandes récentes</h2>
             <div class="overflow-x-auto">
                 <table class="table w-full">
                     <thead>
                         <tr>
-                            <th>Order ID</th>
+                            <th>ID de commande</th>
                             <th>Consommateur</th>
                             <th>Date</th>
                             <th>Montant</th>
